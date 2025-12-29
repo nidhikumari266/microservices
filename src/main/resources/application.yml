@@ -1,5 +1,4 @@
 server:
-<<<<<<< HEAD
   port: 8761
 
 spring:
@@ -7,10 +6,8 @@ spring:
     name: RATING-SERVICE
 
 eureka:
-=======
   port: 8082
 
-spring:
   datasource:
     url: jdbc:postgresql://localhost/microservice
     username: postgres
@@ -34,7 +31,6 @@ logging:
     
     
     eureka:
->>>>>>> 9621c5728d04847e4ed1e3d3c9f7e417e5570158
   client:
     register-with-eureka: true
     fetch-registry: true
@@ -44,9 +40,3 @@ logging:
   instance:
 #    hostname: localhost
       prefer-ip-address: true
-<<<<<<< HEAD
-      
-      
-=======
-
->>>>>>> 9621c5728d04847e4ed1e3d3c9f7e417e5570158

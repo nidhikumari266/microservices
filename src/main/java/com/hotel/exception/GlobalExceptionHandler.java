@@ -1,10 +1,11 @@
 package com.hotel.exception;
 
+import com.hotel.payload.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.user.payload.ApiResponse;
+
 
 public class GlobalExceptionHandler {
 	@ExceptionHandler(ResourceNotFoundException.class)
